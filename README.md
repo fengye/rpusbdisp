@@ -5,10 +5,15 @@ Drivers and Tools for RoboPeak Mini USB Display Project
 
 RoboPeak no longer maintain this project, the only useful links listed below.
 [Original Source Project](https://github.com/robopeak/rpusbdisp)
+
 [DFRobot Wiki Page](https://wiki.dfrobot.com/USB_display_module_SKU_DFR0275)
+
 [DFR0275 User Manual PDF](http://www.robopeak.com/data/doc/rpusbdisp/RPUD02-rpusbdisp_usermanual-enUS.1.1.pdf)
+
 [DFR0275 Datasheet PDF](http://www.robopeak.com/data/doc/rpusbdisp/RPUD01-rpusbdisp_datasheet-enUS.1.2.pdf)
+
 [DFR0275 USB Interface Protocol Spec](http://www.robopeak.com/data/doc/rpusbdisp/RPUD03-rpusbdisp_interface_protocol-enUS.1.0.pdf)
+
 
 
 How to Build the Linux Kernel Driver
@@ -88,7 +93,7 @@ $ sudo cp ./x_conf/10-dualdisp.conf /usr/share/X11/xorg.conf.d/
 
 Or use USB display as a single display, be warned the resolution is extremely limited:
 ```shell
-$ sudo cp ./conf/10-singledisp.conf /usr/share/X11/xorg.conf.d/
+$ sudo cp ./x_conf/10-singledisp.conf /usr/share/X11/xorg.conf.d/
 ```
 
 Then restart X server or reboot.
